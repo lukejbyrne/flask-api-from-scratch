@@ -1,9 +1,31 @@
-
 # API from Scratch with Flask and MongoDB
 
 This project demonstrates how to create a RESTful API from scratch using Python, Flask, and MongoDB. The API includes CRUD operations and serves as a guide for building your own backend services.
 
-## Features
+---
+
+## What is an API?
+An **API (Application Programming Interface)** allows software applications to communicate with each other. In the context of web development, a **RESTful API** enables clients (like web browsers, mobile apps, or other systems) to perform operations on a server using HTTP methods such as:
+- `GET`: Retrieve data.
+- `POST`: Create new data.
+- `PUT`: Update existing data.
+- `DELETE`: Remove data.
+
+For example, when you use a weather app, it fetches data from a server using an API.
+
+---
+
+## What is Flask?
+Flask is a lightweight and easy-to-use web framework for Python. It allows developers to quickly build web applications and APIs without the overhead of more complex frameworks. Flask is often used for its simplicity, flexibility, and ability to scale small projects or microservices into production-ready solutions.
+
+Key features of Flask:
+- Minimal and modular design.
+- Supports extensions for additional functionality (e.g., authentication, database integration).
+- Easy to learn and widely supported by a large community.
+
+---
+
+## Features of This API
 - **Create**: Add new users to the database.
 - **Read**: Retrieve all users or a specific user by ID.
 - **Update**: Modify an existing user's details.
