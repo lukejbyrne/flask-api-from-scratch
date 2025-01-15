@@ -1,6 +1,11 @@
 # API from Scratch with Flask and MongoDB
 
-This project demonstrates how to create a RESTful API from scratch using Python, Flask, and MongoDB. The API includes CRUD operations and serves as a guide for building your own backend services.
+This project demonstrates how to create a RESTful API from scratch using Python, Flask, and MongoDB. The API includes CRUD operations and serves as a guide for building your own backend services. For reference, CRUD operations are the four basic functions used to manage data in a database:
+
+- **Create**: Add new users to the database.
+- **Read**: Retrieve all users or a specific user by ID.
+- **Update**: Modify an existing user's details.
+- **Delete**: Remove a user from the database.
 
 ---
 
@@ -22,14 +27,6 @@ Key features of Flask:
 - Minimal and modular design.
 - Supports extensions for additional functionality (e.g., authentication, database integration).
 - Easy to learn and widely supported by a large community.
-
----
-
-## Features of This API
-- **Create**: Add new users to the database.
-- **Read**: Retrieve all users or a specific user by ID.
-- **Update**: Modify an existing user's details.
-- **Delete**: Remove a user from the database.
 
 ---
 
